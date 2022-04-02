@@ -1,0 +1,261 @@
+
+/*Home page*/
+
+.h-article img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: solid 5px rgb(248, 248, 248);
+        margin-top: 60px;
+        filter:grayscale(100%) drop-shadow(8px 8px 10px #333);
+}
+
+.h-article img:hover{
+    filter: none;
+    filter: drop-shadow(8px 8px 10px #333);
+}
+
+.h-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.h-article p{
+    padding: 10px;
+    text-indent: 2rem;
+}
+
+/*Listas e links*/
+
+.ll-article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    align-content: flex-start;
+}
+
+.ll-article div{
+    background-color: aqua;
+    padding: 1.4rem;
+    border: 1px solid gray;
+    border-radius: 5%;
+    background-color: aliceblue;
+    min-width: 300px;
+    
+}
+
+.ll-article h2{
+    font-size: 1.3rem;
+    color: blue;
+    padding-bottom: 1rem;
+}
+
+.paises ul{
+    list-style-type: square;
+ }
+ .estados ul{
+     list-style-type: circle;
+ }
+ .times ul{
+     list-style-type: decimal; 
+ }
+ .definicao ul{
+     list-style-type: disc;
+ }
+ .links2 ul {
+     list-style-type: lower-latin;
+ }
+
+ /*Formulario*/
+
+.f-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding: 2%;
+    min-width: 300px;
+}
+
+.kj-lines{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #380B61;
+    
+}
+
+.sub {
+    font-family: sans-serif;
+    color: #380B61;
+    
+} 
+
+.nomes {
+    border: 0;
+    padding-top: 10px;
+}
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+    
+}
+
+.caixas {
+    margin-bottom: 1rem;
+}
+
+
+.botao{
+    cursor: pointer;
+}
+.botao:hover {
+    background: #f5f5f5;
+}
+
+form{
+    padding: 2%;
+    border: 1px solid royalblue;
+    border-radius: 5%;
+    background-color: rgb(255, 255, 255);
+    filter:drop-shadow(8px 8px 10px #333);
+}
+
+/*Tabela*/
+
+table {
+	border: 1px;
+	background: #ffffff;
+	width: 100%;
+	border-collapse: collapse;
+    margin-top: 5%;  
+}
+
+table tbody tr:nth-child(even) {
+	background-color: #f99;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #f96;
+}
+
+table tbody tr td:hover {
+	background-color: #b5e5ff;
+}
+
+tfoot tr td:hover {
+	background-color: #b5e5ff;
+}
+
+table th,
+table td {
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px;
+}
+
+table tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+	border-right: 1px solid black;
+}
+
+table tr td:nth-child(3){
+border-right: 1px solid black;
+}
+table tr td:nth-child(5){
+border-right: 1px solid black;
+}
+table tr td:nth-child(7){
+border-right: 1px solid black;
+}
+
+tbody th {
+	background-color: #f9f;
+	border-bottom: 1px solid black;
+}
+
+.table-container {
+	padding: 2rem 1rem;
+}
+
+.table-container tfoot {
+	background: #edddf6;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+}
+.thead {
+	font-size: x-large;	
+}
+
+.tri th 
+{
+	border: 1px solid;
+	background-color:#96f ;
+}
+
+/* Sombras e links externos */
+
+ .g-article{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
+
+ .g-article img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: solid 5px rgb(248, 248, 248);
+    margin-top: 60px;
+    filter:grayscale(100%) drop-shadow(8px 8px 10px #333);
+}
+
+.g-article .img1{
+    height: 300px;
+    width: 300px;
+    border-radius: 5%;
+    border: solid 5px rgb(248, 248, 248);
+    margin-top: 60px;
+    filter: grayscale(100%) drop-shadow(8px 8px 10px #333);
+}
+.g-article .img2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: solid 5px rgb(248, 248, 248);
+    margin-top: 60px;
+    filter: sepia(100%) drop-shadow(8px 8px 10px #333);
+}
+.g-article .img3{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: solid 5px rgb(248, 248, 248);
+    margin-top: 60px;
+    filter:drop-shadow(8px 8px 10px #333);
+}
+.g-article .img4{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: solid 5px rgb(248, 248, 248);
+    margin-top: 60px;
+    filter:drop-shadow(8px 8px 10px #333);
+}
+
+.g-article img:hover{
+    filter: none;
+    filter: drop-shadow(8px 8px 10px #333);
+}
+

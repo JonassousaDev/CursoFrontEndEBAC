@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+        margin: 0;
+        font-size: 62,5%;
+  }
+
+  .container{
+      display: flex;
+      flex-direction: row;
+      height: 25rem;
+      width: 50%;
+      background-color: blue;
+      flex-wrap: wrap;
+
+    }
+
+.container div{
+ border: 0.06rem solid black;
+ padding: 0.625rem;
+}
+ 

@@ -37,3 +37,5 @@ https://git-scm.com/
  > git pull (puxar / trazer alterações do GitHub para sua máquina)
 ## GitFlow
 Fluxo do Git
+
+## gitFlow

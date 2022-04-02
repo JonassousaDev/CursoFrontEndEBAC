@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>HTML - Jonas Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./css/Reset Mayer.css">
+<link rel="stylesheet" type="text/css" href="./css/layout test.css">
+<link rel="stylesheet" type="text/css" href="./css/article.css">
+</head>
+<body>
+
+	<header class="l-Header">
+		<img src="./imagens/ebac.png">
+		<h1><a href="https://ebaconline.com.br/" target="_blank">Curso EBAC</a></h1>
+		<h2>Aluno Jonas</h2>
+	</header>
+
+<main class="l-main">
+	<nav class="l-nav">
+		<h3>Meus Estudos</h3><br>
+			<ul>
+				<li><a href="Home page copy.html">Homepage</a></li>
+				<li><a href="02-listas e links.html">Listas e links</a></li>
+				<li><a href="05-layouts.html">Layout</a></li>
+				<li><a href="modulo-07-exercicio.html">Tabela</a></li>
+				<li><a href="Graficos.html">Filtros e sombras</a></li>
+			</ul>
+			<br>
+
+		<h3>Redes Sociais</h3><br>
+			<ul>
+				<li><a href="https://www.instagram.com/jonassousa.balance/">@jonassousa.balance</a></li><br>
+				<li><a href="https://www.linkedin.com/in/jonas-sousa-python-dev/">linkedin</a></li>
+			</ul>
+	</nav>	
+
+	<article class="f-article">
+		<h1 class="kj-lines">KJ Lines</h1>
+		<p class="sub">Preencha os campos abaixo</p>
+
+		<form method="post">
+
+			<div class="nomes">
+				<div class="caixas">
+					<label for="nome">Nome</label><br>
+					<input type="text" name="name" id="nome" placeholder="Digite seu nome">
+				</div>
+
+				<div class="caixas">
+					<label for="nome">Sobrenome</label><br>
+					<input type="text" name="sobrenome" id="Sobrenome" placeholder="Digite seu sobrenome">
+				</div>
+			</div>	
+			<div class="caixas">
+				<label for="E-mail">E-mail</label><br>
+				<input type="E-mail" name="E-mail" id="email" placeholder="E-mail">
+			
+			</div>
+
+			<div class="caixas">
+				<label>Genero</label>
+					<select>
+						<option value="azul" selected></option>
+						<option value="amarelo">masculino</option>
+						<option value="verde">Feminino</option>
+						<option value="verde">indefinido</option>
+					</select>
+				</div>
+
+				<div class="caixas">
+					<label>De onde nos conhece</label>
+						<select>
+							<option value="azul" selected></option>
+							<option value="amarelo">Instagram</option>
+							<option value="verde">Google</option>
+							<option value="verde">Amigos</option>
+						</select>
+					</div>
+
+			<div class="caixas">	
+				<label>No momento usa um de nossos Produtos?</label><br><br>
+				<input type="radio" name="linguagens">sim
+				<input type="radio" name="linguagens">nao
+				<input type="radio" name="linguagens">So olhando
+			</div>
+
+			<div class="caixas">
+				<label for="Menssagem">Escreva um pouco sobre sua Experiencia</label><br>
+				<textarea name="menssagem" id="menssagem" rows="5" placeholder="Sua opniao faz diferenca"></textarea>
+			</div>
+
+			<button class="botao" type="submit"onsubmit="">Concluido</button>
+
+		</form>
+
+	</article>
+
+</main>
+
+<footer class="l-footer">
+	<p>Desenvolvido por marcelo/jonas</p>
+</footer>
+
+</body>
+</html>
