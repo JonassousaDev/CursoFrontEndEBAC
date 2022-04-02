@@ -39,3 +39,14 @@ https://git-scm.com/
 Fluxo do Git
 
 Rodando testes
+
+### Branchs
+Sao ramificacoes/ Versoes Paralelas
+
+-main / master (vai para a producao quando o projeto e publicado)
+-develop
+
+-versionamento 0.1.11
+DOD Definition of done 
+
+### Merge
