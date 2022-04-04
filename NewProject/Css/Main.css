@@ -1,0 +1,38 @@
+
+/*----Main-----*/
+
+
+.grupo1{
+    display: block;
+    float: left;
+    font-size: 1.2rem;
+    width: 100%;
+    width: 37%;
+    
+}
+.grupo2{
+    display: block;
+    float: left;
+    padding: 30px;
+    padding-top: 50px;
+    line-height: 1.4;
+    
+    
+}
+
+.grupo2 p{
+    text-indent: 2rem;
+}
+
+
+
+.grupo1 img{
+    width: 500px;
+    height: 600px;
+}
+
+ h1{
+    font-size: 1.6rem;
+    color: #935f68;
+ }
+
