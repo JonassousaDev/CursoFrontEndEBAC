@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+html{
+ font-size: 62,5;
+}
+
+body{
+    background-color: #F0DCDC;
+    font-family: 'Lora', serif;
+    
+ }
+
+/*--Header--*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: brown;
+    justify-content: space-around;
+    background-color: white;
+    border-bottom: 1px solid #a67e85;
+    padding: 5px;
+  
+}
+
+a{
+    text-decoration: none;
+    color: #935f68;
+}
+
+a:hover {
+    color: black;
+}
+
+header ol{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:1rem;
+    font-size: 1.5rem;
+}
+
+header ol li{
+    margin: 0.2rem;
+}
+
+header img{
+    height: 100px;
+    width: 250px;
+}
+
+
+
+
+/*---Footer --*/
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    background-color: aliceblue;
+}
+footer img{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+/*----Main-----*/
+
+main {
+   
+    height: 100vh;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height:2;
+    padding-top: 50px;
+}
+
+main div{
+    border: 1px solid #a67e85;
+    border-radius: 20%;
+    background-color: aliceblue;
+    padding: 30px;
+
+}
+
+main h1{
+    font-size: 1.6rem;
+}
+
+main p{
+
+}
