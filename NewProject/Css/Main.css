@@ -1,5 +1,6 @@
 
-/*----Main-----*/
+/*----Welcome-----*/
+
 
 
 .grupo1{
@@ -15,24 +16,53 @@
     float: left;
     padding: 30px;
     padding-top: 50px;
-    line-height: 1.4;
-    
-    
+    line-height: 1.4;   
 }
-
-.grupo2 p{
-    text-indent: 2rem;
-}
-
-
 
 .grupo1 img{
     width: 500px;
     height: 600px;
 }
+/*----Paragrafos-----*/
+
+p{
+    text-indent: 2rem;
+}
+
+
 
  h1{
     font-size: 1.6rem;
     color: #935f68;
  }
+
+/*----whats is guasha-----*/
+
+
+.g-main{
+   display: flex;
+   justify-content: center;
+}
+
+
+.guasha img{
+    width: 100%;
+    height: 0 auto;
+ 
+}
+
+.whatisguasha{
+    margin-left: 20%;
+    margin-right: 20%;
+  
+}
+
+.benefits{
+    font-size: 1.1rem;
+    line-height: 1.2; 
+}
+.benefits li{
+    list-style: disc;
+}
+
 
