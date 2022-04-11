@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/custom.css">
+
+    <title>bootstrap</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="./Imagens/Transparent background.png" alt="Logo">
+                </div>
+                
+                <div class="col ">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"> <a href="" class="nav-link active">Home</a> </li>
+                        <li class="nav-item"> <a href="#sobre" class="nav-link">Sobre </a> </li>
+                        <li class="nav-item"> <a href="#produtos" class="nav-link">Produto</a> </li>
+                        <li class="nav-item"> <a href="#contato" class="nav-link">Contato</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <section id="sobre">
+         <div class="container">
+             <div class="row ">
+                 <div class="col-md-7 col-sm-12">
+                     <h2>Sobre nos</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit expedita mollitia eum ipsa soluta earum ea? Odio vitae doloribus animi suscipit blanditiis deserunt maxime dolores, culpa voluptates et tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quis ad dolor eveniet. Iste ratione, ex dolorem magni neque voluptate, consectetur at et voluptas repudiandae rerum accusantium, quae minima doloribus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eum porro officiis non hic nihil alias voluptates neque aut molestiae, ad aliquam expedita officia doloribus eius sunt reiciendis ex beatae.                        
+                     </p>
+                     <a class="btn btn-lg btn-success">Botao</a>
+                 </div>
+                 <div class="col-md-5 col-sm-12">
+                     <img src="./Imagens/pexels-mikkel-bendix-978947.jpg" alt="imagem" class="img-fluid">
+                 </div>
+             </div>
+         </div>
+     </section>
+
+     <section id="produtos">
+        <div class="contaniner">
+            <div class="row">
+                <div class="col">
+                    <h2>produtos</h2>
+
+                    <div class="card">
+                        <img src="./Imagens/pexels-mikkel-bendix-978947.jpg" alt="imagem" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum consectetur .</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam velit optio incidunt, aliquam nulla labore et mollitia, dicta,  beatae quibusdam architecto!</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Imagens/pexels-mikkel-bendix-978947.jpg" alt="imagem" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum consectetur .</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam velit optio incidunt, aliquam nulla labore et mollitia, dicta, dignissimos ex beatae quibusdam architecto!</p>
+                            <a class="btn btn-primary" href="#produto-2">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Imagens/pexels-mikkel-bendix-978947.jpg" alt="imagem" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum consectetur .</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam velit optio incidunt, aliquam nulla labore et mollitia, nissimos ex beatae quibusdam architecto!</p>
+                            <a class="btn btn-primary" href="#produto-3">Ver produto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section id="contato">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6 col-sm-12">
+                     <h2>Contato</h2>
+                     <p>Ficou interessado? preencha os campos do formulario</p>
+                 </div>
+                 <div class="col-md-6 col-sm-12">
+
+                     <form class="form">
+
+                         <div class="input-group">
+                             <input class="form-control" type="text" name="nome" placeholder="Digite seu nome">
+                         </div>
+                        
+                         <div class="input-group">
+                             <input class="form-control" type="text" name="email" placeholder="Digite seu Email">
+                         </div>
+
+                         <div class="input-group">
+                             <textarea class="form-control" name="" rows="5" placeholder="Seu texto aqui"></textarea>
+                         </div>
+                        
+                         <button type="submit" class="btn btn-lg btn-success">Solicitar Ajuda</button>
+
+                     </form>
+                 </div>
+             </div>
+         </div>
+
+     </section>
+
+     <div class="modal fade" id="modal-1">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                    <h5 class="modal-title">Produto 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                 </div>
+
+                 <div class="modal-body">
+                    <h6>Confira tamanho e precos</h6>
+                    <table class="table table-hover">
+                       <tr>
+                           <th>Tamanho</th>
+                           <th>Valor</th>
+                       </tr>
+                       <tr>
+                           <td>p</td>
+                           <td>R$ 100</td>
+                       </tr>
+                       <tr>
+                           <td>M</td>
+                           <td>R$ 200</td>
+                       </tr>
+                       <tr>
+                           <td>G</td>
+                           <td>R$ 300</td>
+                       </tr>
+                    </table>
+
+
+                 </div>
+
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                 </div>
+
+             </div>
+         </div>
+     </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

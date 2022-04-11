@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+html{
+ font-size: 62,5;
+}
+
+body{
+    font-family: 'Lora', serif;
+    box-sizing: border-box; 
+ }
+
+/*--Header--*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-bottom: 1px solid #a67e85;
+    padding: 5px;
+  
+}
+
+a{
+    text-decoration: none;
+    color: #935f68;
+}
+
+a:hover {
+    color: black;
+}
+
+header ol{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:1rem;
+    font-size: 1.5rem;
+}
+
+header ol li{
+    margin: 0.2rem;
+}
+
+header img{
+    height: 100px;
+    width: 250px;
+}
+
+
+/*---Footer --*/
+section img{
+    height: 50px;
+    width: 50px;
+   
+}
+
+section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 1rem;
+    color: gray;
+    width: 100%;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    background-color: white;
+    align-items:center;
+    padding: 10px;
+    width: 100%;
+}
+
+
+/**/
+.card{
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+article{
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+input,textarea{
+    margin-bottom: 1rem;
+
+}
+

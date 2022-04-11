@@ -1,3 +1,2 @@
-## Trabalhando em novo projeto "new project"
+## Curso EBAC
 
-Meu primeiro site 
