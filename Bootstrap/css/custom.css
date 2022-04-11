@@ -19,8 +19,7 @@ header{
     justify-content: space-around;
     background-color: white;
     border-bottom: 1px solid #a67e85;
-    padding: 5px;
-  
+    padding: 5px; 
 }
 
 a{
@@ -99,3 +98,15 @@ input,textarea{
 
 }
 
+main {
+    padding-top: 1rem;
+}
+
+h1, h2{
+    color: #935f68;
+}
+
+h1{
+    padding-left: 10%;
+
+}
