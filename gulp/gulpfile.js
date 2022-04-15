@@ -1,25 +1,36 @@
+const { series, parallel} = require('gulp')
 const gulp = require("gulp")
 const concat = require("gulp-concat")
 const cssmin = require("gulp-cssmin")
 const rename = require("gulp-rename")
 const uglify = require("gulp-uglify")
 const image = require("gulp-imagemin")
+const htmlmin = require("gulp-htmlmin")
+const babel = require('gulp-babel')
+const browserSync = require('browser-sync').create()
+const reload = browserSync.reload
 
 function tarefasCSS(cb) {
 
-    return gulp.src(["./vendor/**/*.css", "./src/**/*.css"])
+     gulp.src(["./vendor/**/*.css", "./src/**/*.css"])
         .pipe(concat("libs.css"))
         .pipe(cssmin())
         .pipe(rename({ suffix: ".min"}))
         .pipe(gulp.dest("./dist/css"))
+    cb()
 }
 
-function tarefasJS(){
-    return gulp.src(["./vendor/**/*.js", "./src/**/*.js"])
+function tarefasJS(callback){
+     gulp.src(["./vendor/**/*.js", "./src/**/*.js"])
+
+     .pipe(babel({
+        comments: false,
+        presets: ['@babel/env']}))  
         .pipe(concat("libs.js"))
         .pipe(uglify())
         .pipe(rename({ suffix: ".min"}))
         .pipe(gulp.dest("./dist/js"))
+    return callback()
 }
 
 function tarefasImagem(){
@@ -38,9 +49,33 @@ function tarefasImagem(){
         .pipe(gulp.dest("./dist/images"))
 }
 
+function tarefasHTML(callback){
+
+    gulp.src("./src/**/*.html")
+        .pipe(htmlmin({ collapseWhitespace: true }))
+        .pipe(gulp.dest("./dist"))
 
 
+    return callback()
+}
+
+gulp.task('server', function(){
+
+    browserSync.init({
+        server: {
+            baseDir: "./dist"
+        }
+    })
+    gulp.watch('./src/**/*').on('change', process)
+    gulp.watch('./src/**/*').on('change', reload)
+
+})
+
+
+const process = series( tarefasHTML, tarefasJS, tarefasCSS)
 
 exports.styles = tarefasCSS
 exports.scripts = tarefasJS
 exports.images = tarefasImagem
+
+exports.default = process
