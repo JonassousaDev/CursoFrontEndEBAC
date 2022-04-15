@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+@import "var";
+@import "fotter";
+@import "header";
+@import "article";
+
+html{
+ font-size: 62,5;
+}
+
+body{
+    font-family: 'Lora', serif;
+    box-sizing: border-box; 
+ }
+
+
+a{
+    text-decoration: none;
+    color: $cme;
+}
+
+a:hover {
+    color: $cb;
+
+}
+
+
+h1, h2{
+    color: $cme;
+}
+
+h1{
+    padding-left: 10%;
+
+}
+
+input,textarea{
+    margin-bottom: 1rem;
+
+}

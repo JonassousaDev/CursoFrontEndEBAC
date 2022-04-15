@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-bottom: 1px solid $cmc;
+    padding: 5px;
+    
+        img{
+        height: 100px;
+        width: 250px;
+        }
+
+
+        ol{
+        display: flex;
+        flex-direction: row;
+        width: 800px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding:1rem;
+        font-size: 1.5rem;
+        }
+            li{
+            margin: 0.2rem;
+
+}}
