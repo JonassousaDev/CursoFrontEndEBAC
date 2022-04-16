@@ -50,19 +50,19 @@ header li {
   margin: 0.2rem;
 }
 
-main {
+.main {
   padding-top: 1rem;
 }
-main .card {
+.main__card {
   width: 32%;
   float: left;
   margin: 5px;
 }
-main .btn {
+.main .btn {
   color: white;
   background-color: #a67e85;
 }
-main article {
+.main article {
   padding-bottom: 4rem;
   padding-top: 4rem;
 }
@@ -80,17 +80,20 @@ a {
   text-decoration: none;
   color: #935f68;
 }
-
 a:hover {
   color: black;
 }
 
-h1, h2 {
+h1 {
   color: #935f68;
 }
 
 h1 {
   padding-left: 10%;
+}
+
+h2 {
+  color: #935f68;
 }
 
 input, textarea {
