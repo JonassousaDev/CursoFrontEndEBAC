@@ -1,0 +1,30 @@
+/* Banner Style */
+.banner {
+	margin-top: 10px;
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px 0px;
+	background-position: center center;
+	.caption {
+		background-color: white;
+		padding: 30px;
+		max-width: 450px;
+		.line-dec {
+			width: 30px;
+			height: 5px;
+			background-color: #3a8bcd;
+		}
+		p {
+			margin-top: 15px;
+			margin-bottom: 20px;
+		}
+	}
+	.caption h2 {
+		margin-top: 0px;
+		margin-bottom: 15px;
+		font-size: 24px;
+		font-weight: 700;
+		color: #1e1e1e;
+	}
+}
