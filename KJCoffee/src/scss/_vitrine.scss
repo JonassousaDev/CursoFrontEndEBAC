@@ -2,6 +2,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    flex-wrap: wrap;
+
+    @media (max-width: 767px){
+        display: flex;
+        justify-content: center;
+    }
 
     &__item {
         background-color: rgba(250, 250, 250, .2);
