@@ -49,14 +49,32 @@ $(document).ready(function(){
 
      })
      
-     
-     
-     
+     // call back
+/*
+     $('.featured-item:nth(1)')
+     .hide(2000, function(){
+      //call back
+         console.log( $(this).find('h4').text()+ ' Esgotado')
+     })
+     .show(2000,function(){
+      console.log( $(this).find('h4').text()+ ' Em estoque')
+     })
+
+*/
+      //animacoes
+
+const s1 = 1000  //equilave 1segungo
 
 
+$('.featured-item:nth(0)')
+   .hide(s1)
+   .show(s1)
 
-
-
-
+$('.featured-item:nth(1)')
+   .fadeOut(s1*2)
+   .fadeIn(s1*2)
+$('.featured-item:nth(2)')
+   .toggle(s1)
+   .toggle(s1)
 
 })
