@@ -1,0 +1,24 @@
+header{
+    @include dHeader;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid $color2;
+    padding: 5px;
+    
+        img{
+        height: 100px;
+        width: 250px;
+        }
+
+
+        ol{
+        @include dHeader;
+        width: 800px;
+        flex-wrap: wrap;
+        padding:1rem;
+        font-size: 1.5rem;
+        }
+            li{
+            margin: 0.2rem;
+
+}}

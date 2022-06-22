@@ -24,13 +24,13 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="products.html">Products</a>
+                        <a class="nav-link" href="products.html" rel="products">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link nav-modal-open" href="about.html" rel="about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link nav-modal-open" href="contact.html" rel="contato">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -172,6 +172,24 @@
             </div>
         </div>
     </div>
+
+    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">Launch</button>
+
+
+<div id="contato" class="visually-hidden">
+      <form action="" class="form">
+
+        <div class="mb-3">
+          <label for="Nome" class="form-label">Nome</label>
+          <input type="text" name="Nome" id="Nome" class="form-control" placeholder="Digite seu Nome" aria-describedby="helpNome">
+          <small id="helpId" class="text-muted">Digite um nome Valido</small>
+        </div>
+
+
+      </form>
+</div>
+
+ 
     
     <div class="sub-footer">
         <div class="container">

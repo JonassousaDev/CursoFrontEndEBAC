@@ -1,0 +1,9 @@
+$color1:#935f68;
+$color2:#a67e85;
+$color3: white;
+$color4: black;
+@mixin dHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

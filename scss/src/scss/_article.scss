@@ -1,0 +1,19 @@
+.main {
+    padding-top: 1rem;
+    
+        &__card{
+        width: 32%;
+        float: left;
+        margin: 5px;
+    }
+
+        .btn{
+        color: $color3;
+        background-color: $color2;
+    }
+
+        article{
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+    }
+}
